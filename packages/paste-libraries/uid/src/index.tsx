@@ -1,6 +1,7 @@
 import React from 'react';
 import {useUID as useUIDLegacy, useUIDSeed as useUIDSeedLegacy, UIDFork, uid} from 'react-uid';
 
+console.debug('*** THIS IS MY FORKED PASTE PACKAGE AT TROGERS-TWILIO ***');
 /**
  * We found a workaround here but for webpack Workaround for https://github.com/webpack/webpack/issues/14814
  * The line below is an adaptation to make it work in ESBuild (bundler we're using)
